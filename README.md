@@ -1,4 +1,11 @@
 # testGit
+
+1. git rebase -i HEAD~3
+2. 修改第二条及以后的  pick 为 squash(s)
+3. 在 `This is the composation of ...` 后面添加一行，作为合并提交的消息
+4. git rebase --continue
+
+
 This is the first push in master branch.
 This is the second push in master branch.
 This is the third push in master branch.
@@ -24,3 +31,4 @@ This is the 13th commit in dev1 branch.
 This is the 14th commit in dev1 branch.
 This is the 15th commit in dev1 branch.
 This is the 16th commit in dev1 branch.
+
