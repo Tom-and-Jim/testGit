@@ -1,0 +1,23 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tom-and-Jim/testGit.git"
+  },
+  "author": "xuqinchaasdfasdo <15558048671@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "berry": "^0.1.0",
+    "urijs": "^1.19.2"
+  },
+  "description": "1. git rebase -i HEAD~3 2. 修改第二条及以后的  pick 为 squash(s) 3. 在 `This is the composation of ...` 后面添加一行，作为合并提交的消息 4. git rebase --continue",
+  "bugs": {
+    "url": "https://github.com/Tom-and-Jim/testGit/issues"
+  },
+  "homepage": "https://github.com/Tom-and-Jim/testGit#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
